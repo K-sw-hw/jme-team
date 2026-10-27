@@ -12,7 +12,7 @@
 
 <body>
   <!-- Navbar -->
-  <nav class="navbar sticky-top bg-primary" data-bs-theme="dark">
+  <nav class="navbar sticky-top bg-dark-subtle" data-bs-theme="dark">
     <div class="container-fluid">
       <a href="index.html" class="navbar-brand text-decoration-none text-white ms-3">
         JME TEAM
@@ -72,98 +72,139 @@
     </div>
 
     <!-- Sezione Presentazione Matrimonio -->
-    <section class="py-4 bg-white">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
+<section class="py-5">
+  <div class="container py-3">
+    <div class="row justify-content-center">
+      <div class="col-12">
 
-            <!-- Box Elegante a Larghezza Intera -->
-            <div class="border rounded-3 p-4 p-md-5 bg-body-tertiary shadow-sm">
+        <!-- Box Glassmorphism Elegante -->
+        <div
+          class="rounded-5 p-4 p-md-5 shadow-lg border border-secondary border-opacity-25 position-relative overflow-hidden"
+          style="
+            background:
+              radial-gradient(ellipse at 0% 0%, rgba(232, 185, 99, 0.24) 0%, transparent 48%),
+              radial-gradient(ellipse at 100% 100%, rgba(186,145,67,.22) 0%, transparent 48%),
+              radial-gradient(ellipse at 100% 0%, rgba(0,0,0,.75) 0%, transparent 55%),
+              radial-gradient(ellipse at 0% 100%, rgba(0,0,0,.65) 0%, transparent 55%),
+              linear-gradient(135deg, #656565 0%, #171717 48%, #292929 100%);
+            backdrop-filter: blur(24px);
+            -webkit-backdrop-filter: blur(24px);
+            box-shadow: 0 24px 70px rgba(0,0,0,.35), inset 0 1px 0 rgba(255, 255, 255, 0.353);
+          "
+        >
 
-              <!-- Intestazione -->
-              <div class="text-center mb-4 pb-3 border-bottom">
-                <h1 class="h1 fw-bold text-dark mb-4">Just Married & Events Team</h1>
-                <h2 class="h3 fw-light text-dark mb-1">
-                  Devi organizzare il tuo matrimonio?
-                </h2>
-                <p class="fst-italic text-secondary mb-0 fs-6">
-                  Benvenuto/a nel nostro sito!
+          <!-- Intestazione -->
+          <div class="text-center mb-5 pb-4 border-bottom border-secondary border-opacity-25">
+
+            <h1 class="h1 fw-bold text-white mb-4">
+              Just Married &amp; Events Team
+            </h1>
+
+            <h2 class="h3 fw-light text-white mb-3">
+              Devi organizzare il tuo matrimonio?
+            </h2>
+
+            <p class="fst-italic text-white-50 mb-0 fs-6">
+              Benvenuto/a nel nostro sito!
+            </p>
+
+          </div>
+
+          <!-- Corpo Descrittivo -->
+          <div class="text-white-50 fs-6 lh-lg">
+
+            <p class="text-center mb-5 text-white fs-5 fw-light">
+              Hai a disposizione un team di professionisti pronti a rendere il tuo giorno del “Sì”, un giorno
+              speciale e indimenticabile.
+            </p>
+
+            <p class="mb-4">
+              Ci occupiamo noi dell'allestimento, lavoriamo da oltre 20 anni nel creare atmosfere floreali su
+              misura, pensate per raccontare il vostro stile e la vostra storia d'amore.
+            </p>
+
+            <p class="mb-5">
+              Organizziamo eventi e facciamo animazione da oltre 11 anni. Dall'accoglienza al party finale, ogni
+              momento è studiato per coinvolgere e sorprendere i vostri ospiti.
+            </p>
+
+            <!-- Dettagli Servizi -->
+            <div class="pt-4 border-top border-secondary border-opacity-25">
+
+              <div class="mb-4">
+                <span class="fw-semibold text-white d-block mb-2 fs-5">
+                  Non solo musica:
+                </span>
+                <p class="mb-0">
+                  Creatori di colonne sonore personalizzate per ogni coppia.
+                  Flessibilità per offrire soluzioni compatibili che spaziano da performance di singoli artisti a
+                  duo. Un repertorio con una vasta scelta di brani italiani e internazionali.
+                  Suoniamo con saxofono, l'arpa, set Dj, ballerino e canto dal vivo.
                 </p>
               </div>
 
-              <!-- Corpo Descrittivo -->
-              <div class="text-secondary fs-6 lh-base">
-
-                <p class="text-center mb-4">
-                  Hai a disposizione un team di professionisti pronti a rendere il tuo giorno del “Sì”, un giorno
-                  speciale e indimenticabile.
+              <div class="mb-4">
+                <span class="fw-semibold text-white d-block mb-2 fs-5">
+                  Cattura l'emozione:
+                </span>
+                <p class="mb-0">
+                  Lascia che siano le immagini a parlare per voi.
+                  Scatti eleganti e non banali con una forte attenzione alla post produzione artistica e al
+                  reportage emozionale
+                  Solitamente il team si muove con 2 fotografi e 1 videomaker per catturare l'intero evento da più
+                  angolazioni.
                 </p>
-
-                <p class="mb-3">
-                  Ci occupiamo noi dell'allestimento, lavoriamo da oltre 20 anni nel creare atmosfere floreali su
-                  misura, pensate per raccontare il vostro stile e la vostra storia d'amore.
-                </p>
-
-                <p class="mb-4">
-                  Organizziamo eventi e facciamo animazione da oltre 11 anni. Dall'accoglienza al party finale, ogni
-                  momento è studiato per coinvolgere e sorprendere i vostri ospiti.
-                </p>
-
-                <!-- Dettagli Servizi -->
-                <div class="pt-3 border-top">
-
-                  <div class="mb-3">
-                    <span class="fw-semibold text-dark d-block mb-1">Non solo musica:</span>
-                    <p class="mb-0">
-                      Creatori di colonne sonore personalizzate per ogni coppia.
-                      Flessibilità per offrire soluzioni compatibili che spaziano da performance di singoli artisti a
-                      duo. Un repertorio con una vasta scelta di brani italiani e internazionali.
-                      Suoniamo con saxofono, l'arpa, set Dj, ballerino e canto dal vivo.
-
-                    </p>
-                  </div>
-
-                  <div class="mb-3">
-                    <span class="fw-semibold text-dark d-block mb-1">Cattura l'emozione:</span>
-                    <p class="mb-0">
-                      Lascia che siano le immagini a parlare per voi.
-                      Scatti eleganti e non banali con una forte attenzione alla post produzione artistica e al
-                      reportage emozionale
-                      Solitamente il team si muove con 2 fotografi e 1 videomaker per catturare l'intero evento da più
-                      angolazioni.
-
-                    </p>
-                    <p>
-                      <span class="fw-semibold text-dark d-block mb-1">Trucco e acconciature:</span>
-
-                      Il servizio trucco offre pacchetti completi a domicilio per
-                      mostrare la tua
-                      bellezza e farti sentire unica e speciale. I pacchetti sono rivolti non solo alla sposa, ma anche
-                      alle mamme e alle damigelle. Si ha la possibilità di una o più sessioni preliminari per studiare
-                      linee, colori e sfumature ideali in base al vostro viso.
-                    </p>
-                  </div>
-
-                </div>
-
-                <!-- Chiusura -->
-                <div class="text-center pt-3 mt-4 border-top">
-                  <p class="fst-italic text-dark mb-0 fw-medium">
-                    Ci pensiamo noi a rendere speciale la vostra giornata indimenticabile.
-                  </p>
-                  <p class="fst-italic text-dark mb-0 fw-medium">
-                    Contattaci per una consulenza gratuita e senza impegno: <br> (+39) 333 508 2335 <br> Konej@live.com
-                  </p>
-                </div>
-
               </div>
+
+              <div class="mb-4">
+                <span class="fw-semibold text-white d-block mb-2 fs-5">
+                  Trucco e acconciature:
+                </span>
+                <p class="mb-0">
+                  Il servizio trucco offre pacchetti completi a domicilio per
+                  mostrare la tua
+                  bellezza e farti sentire unica e speciale. I pacchetti sono rivolti non solo alla sposa, ma anche
+                  alle mamme e alle damigelle. Si ha la possibilità di una o più sessioni preliminari per studiare
+                  linee, colori e sfumature ideali in base al vostro viso.
+                </p>
+              </div>
+
+            </div>
+
+            <!-- Chiusura -->
+            <div class="text-center pt-4 mt-5 border-top border-secondary border-opacity-25">
+
+              <p class="fst-italic text-white mb-4 fw-medium fs-5">
+                Ci pensiamo noi a rendere speciale la vostra giornata indimenticabile.
+              </p>
+
+              <p class="fst-italic text-white-50 mb-3 fw-medium">
+                Contattaci per una consulenza gratuita e senza impegno:
+              </p>
+
+              <p class="mb-2">
+                <a href="tel:+393335082335"
+                   class="text-white text-decoration-none fw-semibold">
+                  (+39) 333 508 2335
+                </a>
+              </p>
+
+              <p class="mb-0">
+                <a href="mailto:Konej@live.com"
+                   class="text-white text-decoration-none fw-semibold">
+                  Konej@live.com
+                </a>
+              </p>
 
             </div>
 
           </div>
         </div>
+
       </div>
-    </section>
+    </div>
+  </div>
+</section>
 
     <!-- Sezione Artisti -->
     <div class="album py-5 bg-body-tertiary">
